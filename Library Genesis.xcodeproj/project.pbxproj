@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED550FAD22A738FE00E98923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAC22A738FE00E98923 /* AppDelegate.swift */; };
+		ED550FAF22A738FE00E98923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAE22A738FE00E98923 /* SceneDelegate.swift */; };
+		ED550FB122A738FE00E98923 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FB022A738FE00E98923 /* ContentView.swift */; };
+		ED550FB322A7390000E98923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB222A7390000E98923 /* Assets.xcassets */; };
+		ED550FB622A7390000E98923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB522A7390000E98923 /* Preview Assets.xcassets */; };
+		ED550FB922A7390000E98923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB722A7390000E98923 /* LaunchScreen.storyboard */; };
+		ED550FC422A7390000E98923 /* Library_GenesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FC322A7390000E98923 /* Library_GenesisTests.swift */; };
+		ED550FCF22A7390000E98923 /* Library_GenesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED550FC022A7390000E98923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED550FA122A738FE00E98923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED550FA822A738FE00E98923;
+			remoteInfo = "Library Genesis";
+		};
+		ED550FCB22A7390000E98923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED550FA122A738FE00E98923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED550FA822A738FE00E98923;
+			remoteInfo = "Library Genesis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED550FA922A738FE00E98923 /* Library Genesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Genesis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FAC22A738FE00E98923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED550FAE22A738FE00E98923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED550FB022A738FE00E98923 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED550FB222A7390000E98923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED550FB522A7390000E98923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED550FB822A7390000E98923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED550FBA22A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED550FBF22A7390000E98923 /* Library GenesisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library GenesisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FC322A7390000E98923 /* Library_GenesisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_GenesisTests.swift; sourceTree = "<group>"; };
+		ED550FC522A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library GenesisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_GenesisUITests.swift; sourceTree = "<group>"; };
+		ED550FD022A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED550FA622A738FE00E98923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FBC22A7390000E98923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FC722A7390000E98923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED550FA022A738FE00E98923 = {
+			isa = PBXGroup;
+			children = (
+				ED550FAB22A738FE00E98923 /* Library Genesis */,
+				ED550FC222A7390000E98923 /* Library GenesisTests */,
+				ED550FCD22A7390000E98923 /* Library GenesisUITests */,
+				ED550FAA22A738FE00E98923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED550FAA22A738FE00E98923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FA922A738FE00E98923 /* Library Genesis.app */,
+				ED550FBF22A7390000E98923 /* Library GenesisTests.xctest */,
+				ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED550FAB22A738FE00E98923 /* Library Genesis */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FAC22A738FE00E98923 /* AppDelegate.swift */,
+				ED550FAE22A738FE00E98923 /* SceneDelegate.swift */,
+				ED550FB022A738FE00E98923 /* ContentView.swift */,
+				ED550FB222A7390000E98923 /* Assets.xcassets */,
+				ED550FB722A7390000E98923 /* LaunchScreen.storyboard */,
+				ED550FBA22A7390000E98923 /* Info.plist */,
+				ED550FB422A7390000E98923 /* Preview Content */,
+			);
+			path = "Library Genesis";
+			sourceTree = "<group>";
+		};
+		ED550FB422A7390000E98923 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FB522A7390000E98923 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED550FC222A7390000E98923 /* Library GenesisTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FC322A7390000E98923 /* Library_GenesisTests.swift */,
+				ED550FC522A7390000E98923 /* Info.plist */,
+			);
+			path = "Library GenesisTests";
+			sourceTree = "<group>";
+		};
+		ED550FCD22A7390000E98923 /* Library GenesisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */,
+				ED550FD022A7390000E98923 /* Info.plist */,
+			);
+			path = "Library GenesisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED550FA822A738FE00E98923 /* Library Genesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED550FD322A7390000E98923 /* Build configuration list for PBXNativeTarget "Library Genesis" */;
+			buildPhases = (
+				ED550FA522A738FE00E98923 /* Sources */,
+				ED550FA622A738FE00E98923 /* Frameworks */,
+				ED550FA722A738FE00E98923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Library Genesis";
+			productName = "Library Genesis";
+			productReference = ED550FA922A738FE00E98923 /* Library Genesis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED550FBE22A7390000E98923 /* Library GenesisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED550FD622A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisTests" */;
+			buildPhases = (
+				ED550FBB22A7390000E98923 /* Sources */,
+				ED550FBC22A7390000E98923 /* Frameworks */,
+				ED550FBD22A7390000E98923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED550FC122A7390000E98923 /* PBXTargetDependency */,
+			);
+			name = "Library GenesisTests";
+			productName = "Library GenesisTests";
+			productReference = ED550FBF22A7390000E98923 /* Library GenesisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED550FC922A7390000E98923 /* Library GenesisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED550FD922A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisUITests" */;
+			buildPhases = (
+				ED550FC622A7390000E98923 /* Sources */,
+				ED550FC722A7390000E98923 /* Frameworks */,
+				ED550FC822A7390000E98923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED550FCC22A7390000E98923 /* PBXTargetDependency */,
+			);
+			name = "Library GenesisUITests";
+			productName = "Library GenesisUITests";
+			productReference = ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED550FA122A738FE00E98923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Marcus Florentin";
+				TargetAttributes = {
+					ED550FA822A738FE00E98923 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					ED550FBE22A7390000E98923 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ED550FA822A738FE00E98923;
+					};
+					ED550FC922A7390000E98923 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ED550FA822A738FE00E98923;
+					};
+				};
+			};
+			buildConfigurationList = ED550FA422A738FE00E98923 /* Build configuration list for PBXProject "Library Genesis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED550FA022A738FE00E98923;
+			productRefGroup = ED550FAA22A738FE00E98923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED550FA822A738FE00E98923 /* Library Genesis */,
+				ED550FBE22A7390000E98923 /* Library GenesisTests */,
+				ED550FC922A7390000E98923 /* Library GenesisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED550FA722A738FE00E98923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FB922A7390000E98923 /* LaunchScreen.storyboard in Resources */,
+				ED550FB622A7390000E98923 /* Preview Assets.xcassets in Resources */,
+				ED550FB322A7390000E98923 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FBD22A7390000E98923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FC822A7390000E98923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED550FA522A738FE00E98923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FAD22A738FE00E98923 /* AppDelegate.swift in Sources */,
+				ED550FAF22A738FE00E98923 /* SceneDelegate.swift in Sources */,
+				ED550FB122A738FE00E98923 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FBB22A7390000E98923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FC422A7390000E98923 /* Library_GenesisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED550FC622A7390000E98923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED550FCF22A7390000E98923 /* Library_GenesisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED550FC122A7390000E98923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED550FA822A738FE00E98923 /* Library Genesis */;
+			targetProxy = ED550FC022A7390000E98923 /* PBXContainerItemProxy */;
+		};
+		ED550FCC22A7390000E98923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED550FA822A738FE00E98923 /* Library Genesis */;
+			targetProxy = ED550FCB22A7390000E98923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED550FB722A7390000E98923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED550FB822A7390000E98923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED550FD122A7390000E98923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED550FD222A7390000E98923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED550FD422A7390000E98923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Library Genesis\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = Z8Q82L44LS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Library Genesis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-Genesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED550FD522A7390000E98923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Library Genesis\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = Z8Q82L44LS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Library Genesis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-Genesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED550FD722A7390000E98923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8Q82L44LS;
+				INFOPLIST_FILE = "Library GenesisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-GenesisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Library Genesis.app/Library Genesis";
+			};
+			name = Debug;
+		};
+		ED550FD822A7390000E98923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8Q82L44LS;
+				INFOPLIST_FILE = "Library GenesisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-GenesisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Library Genesis.app/Library Genesis";
+			};
+			name = Release;
+		};
+		ED550FDA22A7390000E98923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8Q82L44LS;
+				INFOPLIST_FILE = "Library GenesisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-GenesisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Library Genesis";
+			};
+			name = Debug;
+		};
+		ED550FDB22A7390000E98923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8Q82L44LS;
+				INFOPLIST_FILE = "Library GenesisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-GenesisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Library Genesis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED550FA422A738FE00E98923 /* Build configuration list for PBXProject "Library Genesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FD122A7390000E98923 /* Debug */,
+				ED550FD222A7390000E98923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED550FD322A7390000E98923 /* Build configuration list for PBXNativeTarget "Library Genesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FD422A7390000E98923 /* Debug */,
+				ED550FD522A7390000E98923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED550FD622A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FD722A7390000E98923 /* Debug */,
+				ED550FD822A7390000E98923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED550FD922A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED550FDA22A7390000E98923 /* Debug */,
+				ED550FDB22A7390000E98923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED550FA122A738FE00E98923 /* Project object */;
+}
