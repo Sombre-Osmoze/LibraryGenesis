@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2B09F922A9BAE900386396 /* TestsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B09F822A9BAE900386396 /* TestsData.swift */; };
+		ED2B09FC22A9BD5300386396 /* libGensData.json in Resources */ = {isa = PBXBuildFile; fileRef = EDB785EC22A9A86E00464F9A /* libGensData.json */; };
 		ED550FAD22A738FE00E98923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAC22A738FE00E98923 /* AppDelegate.swift */; };
 		ED550FAF22A738FE00E98923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAE22A738FE00E98923 /* SceneDelegate.swift */; };
-		ED550FB122A738FE00E98923 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FB022A738FE00E98923 /* ContentView.swift */; };
 		ED550FB322A7390000E98923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB222A7390000E98923 /* Assets.xcassets */; };
 		ED550FB622A7390000E98923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB522A7390000E98923 /* Preview Assets.xcassets */; };
 		ED550FB922A7390000E98923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB722A7390000E98923 /* LaunchScreen.storyboard */; };
 		ED550FC422A7390000E98923 /* Library_GenesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FC322A7390000E98923 /* Library_GenesisTests.swift */; };
 		ED550FCF22A7390000E98923 /* Library_GenesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */; };
+		ED550FDD22A73B3300E98923 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FDC22A73B3300E98923 /* BookView.swift */; };
+		ED55100C22A7448D00E98923 /* LibGenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED55100822A7447B00E98923 /* LibGenAPI.framework */; };
+		ED55100D22A7448D00E98923 /* LibGenAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED55100822A7447B00E98923 /* LibGenAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDA79A4422A9E8AE00FDCE12 /* manyLibGens.json in Resources */ = {isa = PBXBuildFile; fileRef = EDA79A4122A9E8AE00FDCE12 /* manyLibGens.json */; };
+		EDB785E822A9A40D00464F9A /* BooksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB785E722A9A40D00464F9A /* BooksList.swift */; };
+		EDB785F022A9AF1400464F9A /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB785EF22A9AF1400464F9A /* BookRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +39,41 @@
 			remoteGlobalIDString = ED550FA822A738FE00E98923;
 			remoteInfo = "Library Genesis";
 		};
+		ED55100722A7447B00E98923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED550FEA22A7445B00E98923;
+			remoteInfo = LibGenAPI;
+		};
+		ED55100922A7447B00E98923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED550FF322A7445B00E98923;
+			remoteInfo = LibGenAPITests;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ED55100E22A7448D00E98923 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ED55100D22A7448D00E98923 /* LibGenAPI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ED2B09F822A9BAE900386396 /* TestsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsData.swift; sourceTree = "<group>"; };
 		ED550FA922A738FE00E98923 /* Library Genesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Genesis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED550FAC22A738FE00E98923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED550FAE22A738FE00E98923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED550FB022A738FE00E98923 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED550FB222A7390000E98923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED550FB522A7390000E98923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED550FB822A7390000E98923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +84,12 @@
 		ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library GenesisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_GenesisUITests.swift; sourceTree = "<group>"; };
 		ED550FD022A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED550FDC22A73B3300E98923 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Library Genesis API.xcodeproj"; path = "../Library Genesis API/Library Genesis API.xcodeproj"; sourceTree = "<group>"; };
+		EDA79A4122A9E8AE00FDCE12 /* manyLibGens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manyLibGens.json; path = "../../../../../Library/CloudStorage/iCloud Drive/Desktop/manyLibGens.json"; sourceTree = "<group>"; };
+		EDB785E722A9A40D00464F9A /* BooksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksList.swift; sourceTree = "<group>"; };
+		EDB785EC22A9A86E00464F9A /* libGensData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = libGensData.json; sourceTree = "<group>"; };
+		EDB785EF22A9AF1400464F9A /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED55100C22A7448D00E98923 /* LibGenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +121,12 @@
 		ED550FA022A738FE00E98923 = {
 			isa = PBXGroup;
 			children = (
+				ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */,
 				ED550FAB22A738FE00E98923 /* Library Genesis */,
 				ED550FC222A7390000E98923 /* Library GenesisTests */,
 				ED550FCD22A7390000E98923 /* Library GenesisUITests */,
 				ED550FAA22A738FE00E98923 /* Products */,
+				ED55100B22A7448C00E98923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +143,12 @@
 		ED550FAB22A738FE00E98923 /* Library Genesis */ = {
 			isa = PBXGroup;
 			children = (
-				ED550FAC22A738FE00E98923 /* AppDelegate.swift */,
-				ED550FAE22A738FE00E98923 /* SceneDelegate.swift */,
-				ED550FB022A738FE00E98923 /* ContentView.swift */,
-				ED550FB222A7390000E98923 /* Assets.xcassets */,
-				ED550FB722A7390000E98923 /* LaunchScreen.storyboard */,
 				ED550FBA22A7390000E98923 /* Info.plist */,
+				ED550FAC22A738FE00E98923 /* AppDelegate.swift */,
+				ED550FB722A7390000E98923 /* LaunchScreen.storyboard */,
+				ED550FAE22A738FE00E98923 /* SceneDelegate.swift */,
+				EDB785E622A9A3E000464F9A /* Books */,
+				ED550FB222A7390000E98923 /* Assets.xcassets */,
 				ED550FB422A7390000E98923 /* Preview Content */,
 			);
 			path = "Library Genesis";
@@ -113,7 +157,9 @@
 		ED550FB422A7390000E98923 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				EDB785EB22A9A86E00464F9A /* Resources */,
 				ED550FB522A7390000E98923 /* Preview Assets.xcassets */,
+				ED2B09F822A9BAE900386396 /* TestsData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -136,6 +182,41 @@
 			path = "Library GenesisUITests";
 			sourceTree = "<group>";
 		};
+		ED55100322A7447B00E98923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED55100822A7447B00E98923 /* LibGenAPI.framework */,
+				ED55100A22A7447B00E98923 /* LibGenAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED55100B22A7448C00E98923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB785E622A9A3E000464F9A /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				EDB785E722A9A40D00464F9A /* BooksList.swift */,
+				EDB785EF22A9AF1400464F9A /* BookRow.swift */,
+				ED550FDC22A73B3300E98923 /* BookView.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		EDB785EB22A9A86E00464F9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDA79A4122A9E8AE00FDCE12 /* manyLibGens.json */,
+				EDB785EC22A9A86E00464F9A /* libGensData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +227,7 @@
 				ED550FA522A738FE00E98923 /* Sources */,
 				ED550FA622A738FE00E98923 /* Frameworks */,
 				ED550FA722A738FE00E98923 /* Resources */,
+				ED55100E22A7448D00E98923 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,6 +308,12 @@
 			mainGroup = ED550FA022A738FE00E98923;
 			productRefGroup = ED550FAA22A738FE00E98923 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ED55100322A7447B00E98923 /* Products */;
+					ProjectRef = ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ED550FA822A738FE00E98923 /* Library Genesis */,
@@ -235,6 +323,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		ED55100822A7447B00E98923 /* LibGenAPI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LibGenAPI.framework;
+			remoteRef = ED55100722A7447B00E98923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ED55100A22A7447B00E98923 /* LibGenAPITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LibGenAPITests.xctest;
+			remoteRef = ED55100922A7447B00E98923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		ED550FA722A738FE00E98923 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -242,7 +347,9 @@
 			files = (
 				ED550FB922A7390000E98923 /* LaunchScreen.storyboard in Resources */,
 				ED550FB622A7390000E98923 /* Preview Assets.xcassets in Resources */,
+				ED2B09FC22A9BD5300386396 /* libGensData.json in Resources */,
 				ED550FB322A7390000E98923 /* Assets.xcassets in Resources */,
+				EDA79A4422A9E8AE00FDCE12 /* manyLibGens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +376,10 @@
 			files = (
 				ED550FAD22A738FE00E98923 /* AppDelegate.swift in Sources */,
 				ED550FAF22A738FE00E98923 /* SceneDelegate.swift in Sources */,
-				ED550FB122A738FE00E98923 /* ContentView.swift in Sources */,
+				EDB785E822A9A40D00464F9A /* BooksList.swift in Sources */,
+				ED550FDD22A73B3300E98923 /* BookView.swift in Sources */,
+				EDB785F022A9AF1400464F9A /* BookRow.swift in Sources */,
+				ED2B09F922A9BAE900386396 /* TestsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

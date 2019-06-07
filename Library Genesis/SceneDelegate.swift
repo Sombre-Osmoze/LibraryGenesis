@@ -9,9 +9,14 @@
 import UIKit
 import SwiftUI
 
+import LibGenAPI
+
+let interation = InteractionAPI()
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 	var window: UIWindow?
+
 
 
 	func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -21,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 		// Use a UIHostingController as window root view controller
 		let window = UIWindow(frame: UIScreen.main.bounds)
-		window.rootViewController = UIHostingController(rootView: ContentView())
+		window.rootViewController = UIHostingController(rootView: BooksList(books: libGensData))
 		self.window = window
 		window.makeKeyAndVisible()
 	}
