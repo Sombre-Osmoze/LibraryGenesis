@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Library Genesis.xcodeproj">
+      location = "self:/Users/marcusflorentin/Work-Pro-dev/Library Genesis/QuickBook.xcodeproj">
    </FileRef>
 </Workspace>

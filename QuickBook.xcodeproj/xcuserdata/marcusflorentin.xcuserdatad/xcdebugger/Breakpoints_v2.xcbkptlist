@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A4D8B6B7-F760-4BD7-8695-29EEDA624718"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0145E67D-FDFD-4C8C-96F8-3815D25ED84C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Library Genesis API/LibGenAPI/InteractionAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "libGens(from:to:limit:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0145E67D-FDFD-4C8C-96F8-3815D25ED84C - c16d385b75e42e5c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LibGenAPI.InteractionAPI.libGens(from: Foundation.Date, to: Foundation.Date, limit: Swift.Int, handler: (Swift.Result&lt;Swift.Array&lt;LibGenAPI.Book&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LibGenAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcusflorentin/Work-Pro-dev/Library%20Genesis%20API/LibGenAPI/InteractionAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "1744">
+               </Location>
+               <Location
+                  uuid = "0145E67D-FDFD-4C8C-96F8-3815D25ED84C - aaf5fd401baa27b9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in LibGenAPI.InteractionAPI.libGens(from: Foundation.Date, to: Foundation.Date, limit: Swift.Int, handler: (Swift.Result&lt;Swift.Array&lt;LibGenAPI.Book&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LibGenAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcusflorentin/Work-Pro-dev/Library%20Genesis%20API/LibGenAPI/InteractionAPI.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

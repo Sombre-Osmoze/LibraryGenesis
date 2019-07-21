@@ -1,6 +1,6 @@
 //
-//  Library_GenesisTests.swift
-//  Library GenesisTests
+//  QuickBookTests.swift
+//  QuickBookTests
 //
 //  Created by Marcus Florentin on 05/06/2019.
 //  Copyright © 2019 Marcus Florentin. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import Library_Genesis
 
-class Library_GenesisTests: XCTestCase {
+class QuickBookTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

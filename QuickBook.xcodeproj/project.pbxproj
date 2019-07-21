@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED2B09F922A9BAE900386396 /* TestsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B09F822A9BAE900386396 /* TestsData.swift */; };
-		ED2B09FC22A9BD5300386396 /* libGensData.json in Resources */ = {isa = PBXBuildFile; fileRef = EDB785EC22A9A86E00464F9A /* libGensData.json */; };
-		ED550FAD22A738FE00E98923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAC22A738FE00E98923 /* AppDelegate.swift */; };
-		ED550FAF22A738FE00E98923 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAE22A738FE00E98923 /* SceneDelegate.swift */; };
+		ED1DDC2E22E50C9700152F56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAC22A738FE00E98923 /* AppDelegate.swift */; };
+		ED1DDC2F22E50C9900152F56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FAE22A738FE00E98923 /* SceneDelegate.swift */; };
+		ED1DDC3022E50C9C00152F56 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6BFE822DAC764000D3977 /* ProgressBar.swift */; };
+		ED1DDC3122E50C9E00152F56 /* BooksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB785E722A9A40D00464F9A /* BooksList.swift */; };
+		ED1DDC3322E50CA500152F56 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB785EF22A9AF1400464F9A /* BookRow.swift */; };
+		ED1DDC3522E50CE300152F56 /* BookFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1DDC3422E50CE300152F56 /* BookFilterView.swift */; };
+		ED1DDC3622E50CEC00152F56 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FDC22A73B3300E98923 /* BookView.swift */; };
+		ED1DDC3722E50CEF00152F56 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED09164A22DAADB200545CCB /* Books.swift */; };
+		ED1DDC3A22E50D0300152F56 /* BooksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1DDC3922E50D0300152F56 /* BooksData.swift */; };
+		ED1DDC3B22E50D2E00152F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB722A7390000E98923 /* LaunchScreen.storyboard */; };
+		ED1DDC3C22E50D6900152F56 /* TestsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B09F822A9BAE900386396 /* TestsData.swift */; };
 		ED550FB322A7390000E98923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB222A7390000E98923 /* Assets.xcassets */; };
 		ED550FB622A7390000E98923 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB522A7390000E98923 /* Preview Assets.xcassets */; };
-		ED550FB922A7390000E98923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED550FB722A7390000E98923 /* LaunchScreen.storyboard */; };
-		ED550FC422A7390000E98923 /* Library_GenesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FC322A7390000E98923 /* Library_GenesisTests.swift */; };
-		ED550FCF22A7390000E98923 /* Library_GenesisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */; };
-		ED550FDD22A73B3300E98923 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FDC22A73B3300E98923 /* BookView.swift */; };
+		ED550FC422A7390000E98923 /* QuickBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FC322A7390000E98923 /* QuickBookTests.swift */; };
+		ED550FCF22A7390000E98923 /* QookuickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED550FCE22A7390000E98923 /* QookuickUITests.swift */; };
 		ED55100C22A7448D00E98923 /* LibGenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED55100822A7447B00E98923 /* LibGenAPI.framework */; };
 		ED55100D22A7448D00E98923 /* LibGenAPI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED55100822A7447B00E98923 /* LibGenAPI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EDA79A4422A9E8AE00FDCE12 /* manyLibGens.json in Resources */ = {isa = PBXBuildFile; fileRef = EDA79A4122A9E8AE00FDCE12 /* manyLibGens.json */; };
-		EDB785E822A9A40D00464F9A /* BooksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB785E722A9A40D00464F9A /* BooksList.swift */; };
-		EDB785F022A9AF1400464F9A /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB785EF22A9AF1400464F9A /* BookRow.swift */; };
+		EDE7996022D78D1B0021BEED /* libGensData.json in Resources */ = {isa = PBXBuildFile; fileRef = EDB785EC22A9A86E00464F9A /* libGensData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,23 +73,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ED09164A22DAADB200545CCB /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		ED1DDC3422E50CE300152F56 /* BookFilterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFilterView.swift; sourceTree = "<group>"; };
+		ED1DDC3922E50D0300152F56 /* BooksData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksData.swift; sourceTree = "<group>"; };
 		ED2B09F822A9BAE900386396 /* TestsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsData.swift; sourceTree = "<group>"; };
-		ED550FA922A738FE00E98923 /* Library Genesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Genesis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FA922A738FE00E98923 /* QuickBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED550FAC22A738FE00E98923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED550FAE22A738FE00E98923 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ED550FB222A7390000E98923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED550FB522A7390000E98923 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED550FB822A7390000E98923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED550FBA22A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED550FBF22A7390000E98923 /* Library GenesisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library GenesisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED550FC322A7390000E98923 /* Library_GenesisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_GenesisTests.swift; sourceTree = "<group>"; };
+		ED550FBF22A7390000E98923 /* QuickBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FC322A7390000E98923 /* QuickBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickBookTests.swift; sourceTree = "<group>"; };
 		ED550FC522A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library GenesisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library_GenesisUITests.swift; sourceTree = "<group>"; };
+		ED550FCA22A7390000E98923 /* QuickBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED550FCE22A7390000E98923 /* QookuickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QookuickUITests.swift; sourceTree = "<group>"; };
 		ED550FD022A7390000E98923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED550FDC22A73B3300E98923 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Library Genesis API.xcodeproj"; path = "../Library Genesis API/Library Genesis API.xcodeproj"; sourceTree = "<group>"; };
-		EDA79A4122A9E8AE00FDCE12 /* manyLibGens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manyLibGens.json; path = "../../../../../Library/CloudStorage/iCloud Drive/Desktop/manyLibGens.json"; sourceTree = "<group>"; };
+		ED80A0DE22B106E200989599 /* QuickBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuickBook.entitlements; sourceTree = "<group>"; };
+		EDA6BFE822DAC764000D3977 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		EDA79A4522A9FCE800FDCE12 /* manyLibGens.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manyLibGens.json; sourceTree = "<group>"; };
 		EDB785E722A9A40D00464F9A /* BooksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksList.swift; sourceTree = "<group>"; };
 		EDB785EC22A9A86E00464F9A /* libGensData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = libGensData.json; sourceTree = "<group>"; };
 		EDB785EF22A9AF1400464F9A /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
@@ -122,9 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				ED55100222A7447B00E98923 /* Library Genesis API.xcodeproj */,
-				ED550FAB22A738FE00E98923 /* Library Genesis */,
-				ED550FC222A7390000E98923 /* Library GenesisTests */,
-				ED550FCD22A7390000E98923 /* Library GenesisUITests */,
+				ED550FAB22A738FE00E98923 /* QuickBook */,
+				ED550FC222A7390000E98923 /* QuickBookTests */,
+				ED550FCD22A7390000E98923 /* QuickBookUITests */,
 				ED550FAA22A738FE00E98923 /* Products */,
 				ED55100B22A7448C00E98923 /* Frameworks */,
 			);
@@ -133,25 +141,27 @@
 		ED550FAA22A738FE00E98923 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED550FA922A738FE00E98923 /* Library Genesis.app */,
-				ED550FBF22A7390000E98923 /* Library GenesisTests.xctest */,
-				ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */,
+				ED550FA922A738FE00E98923 /* QuickBook.app */,
+				ED550FBF22A7390000E98923 /* QuickBookTests.xctest */,
+				ED550FCA22A7390000E98923 /* QuickBookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED550FAB22A738FE00E98923 /* Library Genesis */ = {
+		ED550FAB22A738FE00E98923 /* QuickBook */ = {
 			isa = PBXGroup;
 			children = (
+				ED80A0DE22B106E200989599 /* QuickBook.entitlements */,
 				ED550FBA22A7390000E98923 /* Info.plist */,
+				ED550FB222A7390000E98923 /* Assets.xcassets */,
 				ED550FAC22A738FE00E98923 /* AppDelegate.swift */,
 				ED550FB722A7390000E98923 /* LaunchScreen.storyboard */,
 				ED550FAE22A738FE00E98923 /* SceneDelegate.swift */,
+				EDA6BFE822DAC764000D3977 /* ProgressBar.swift */,
 				EDB785E622A9A3E000464F9A /* Books */,
-				ED550FB222A7390000E98923 /* Assets.xcassets */,
 				ED550FB422A7390000E98923 /* Preview Content */,
 			);
-			path = "Library Genesis";
+			path = QuickBook;
 			sourceTree = "<group>";
 		};
 		ED550FB422A7390000E98923 /* Preview Content */ = {
@@ -164,22 +174,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ED550FC222A7390000E98923 /* Library GenesisTests */ = {
+		ED550FC222A7390000E98923 /* QuickBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED550FC322A7390000E98923 /* Library_GenesisTests.swift */,
+				ED550FC322A7390000E98923 /* QuickBookTests.swift */,
 				ED550FC522A7390000E98923 /* Info.plist */,
 			);
-			path = "Library GenesisTests";
+			path = QuickBookTests;
 			sourceTree = "<group>";
 		};
-		ED550FCD22A7390000E98923 /* Library GenesisUITests */ = {
+		ED550FCD22A7390000E98923 /* QuickBookUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ED550FCE22A7390000E98923 /* Library_GenesisUITests.swift */,
+				ED550FCE22A7390000E98923 /* QookuickUITests.swift */,
 				ED550FD022A7390000E98923 /* Info.plist */,
 			);
-			path = "Library GenesisUITests";
+			path = QuickBookUITests;
 			sourceTree = "<group>";
 		};
 		ED55100322A7447B00E98923 /* Products */ = {
@@ -202,8 +212,11 @@
 			isa = PBXGroup;
 			children = (
 				EDB785E722A9A40D00464F9A /* BooksList.swift */,
+				ED1DDC3422E50CE300152F56 /* BookFilterView.swift */,
 				EDB785EF22A9AF1400464F9A /* BookRow.swift */,
 				ED550FDC22A73B3300E98923 /* BookView.swift */,
+				ED09164A22DAADB200545CCB /* Books.swift */,
+				ED1DDC3922E50D0300152F56 /* BooksData.swift */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -211,7 +224,7 @@
 		EDB785EB22A9A86E00464F9A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EDA79A4122A9E8AE00FDCE12 /* manyLibGens.json */,
+				EDA79A4522A9FCE800FDCE12 /* manyLibGens.json */,
 				EDB785EC22A9A86E00464F9A /* libGensData.json */,
 			);
 			path = Resources;
@@ -220,9 +233,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED550FA822A738FE00E98923 /* Library Genesis */ = {
+		ED550FA822A738FE00E98923 /* QuickBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED550FD322A7390000E98923 /* Build configuration list for PBXNativeTarget "Library Genesis" */;
+			buildConfigurationList = ED550FD322A7390000E98923 /* Build configuration list for PBXNativeTarget "QuickBook" */;
 			buildPhases = (
 				ED550FA522A738FE00E98923 /* Sources */,
 				ED550FA622A738FE00E98923 /* Frameworks */,
@@ -233,14 +246,14 @@
 			);
 			dependencies = (
 			);
-			name = "Library Genesis";
+			name = QuickBook;
 			productName = "Library Genesis";
-			productReference = ED550FA922A738FE00E98923 /* Library Genesis.app */;
+			productReference = ED550FA922A738FE00E98923 /* QuickBook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED550FBE22A7390000E98923 /* Library GenesisTests */ = {
+		ED550FBE22A7390000E98923 /* QuickBookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED550FD622A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisTests" */;
+			buildConfigurationList = ED550FD622A7390000E98923 /* Build configuration list for PBXNativeTarget "QuickBookTests" */;
 			buildPhases = (
 				ED550FBB22A7390000E98923 /* Sources */,
 				ED550FBC22A7390000E98923 /* Frameworks */,
@@ -251,14 +264,14 @@
 			dependencies = (
 				ED550FC122A7390000E98923 /* PBXTargetDependency */,
 			);
-			name = "Library GenesisTests";
+			name = QuickBookTests;
 			productName = "Library GenesisTests";
-			productReference = ED550FBF22A7390000E98923 /* Library GenesisTests.xctest */;
+			productReference = ED550FBF22A7390000E98923 /* QuickBookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED550FC922A7390000E98923 /* Library GenesisUITests */ = {
+		ED550FC922A7390000E98923 /* QuickBookUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED550FD922A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisUITests" */;
+			buildConfigurationList = ED550FD922A7390000E98923 /* Build configuration list for PBXNativeTarget "QuickBookUITests" */;
 			buildPhases = (
 				ED550FC622A7390000E98923 /* Sources */,
 				ED550FC722A7390000E98923 /* Frameworks */,
@@ -269,9 +282,9 @@
 			dependencies = (
 				ED550FCC22A7390000E98923 /* PBXTargetDependency */,
 			);
-			name = "Library GenesisUITests";
+			name = QuickBookUITests;
 			productName = "Library GenesisUITests";
-			productReference = ED550FCA22A7390000E98923 /* Library GenesisUITests.xctest */;
+			productReference = ED550FCA22A7390000E98923 /* QuickBookUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED550FA422A738FE00E98923 /* Build configuration list for PBXProject "Library Genesis" */;
+			buildConfigurationList = ED550FA422A738FE00E98923 /* Build configuration list for PBXProject "QuickBook" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,9 +329,9 @@
 			);
 			projectRoot = "";
 			targets = (
-				ED550FA822A738FE00E98923 /* Library Genesis */,
-				ED550FBE22A7390000E98923 /* Library GenesisTests */,
-				ED550FC922A7390000E98923 /* Library GenesisUITests */,
+				ED550FA822A738FE00E98923 /* QuickBook */,
+				ED550FBE22A7390000E98923 /* QuickBookTests */,
+				ED550FC922A7390000E98923 /* QuickBookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -345,11 +358,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED550FB922A7390000E98923 /* LaunchScreen.storyboard in Resources */,
 				ED550FB622A7390000E98923 /* Preview Assets.xcassets in Resources */,
-				ED2B09FC22A9BD5300386396 /* libGensData.json in Resources */,
+				ED1DDC3B22E50D2E00152F56 /* LaunchScreen.storyboard in Resources */,
+				EDE7996022D78D1B0021BEED /* libGensData.json in Resources */,
 				ED550FB322A7390000E98923 /* Assets.xcassets in Resources */,
-				EDA79A4422A9E8AE00FDCE12 /* manyLibGens.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED550FAD22A738FE00E98923 /* AppDelegate.swift in Sources */,
-				ED550FAF22A738FE00E98923 /* SceneDelegate.swift in Sources */,
-				EDB785E822A9A40D00464F9A /* BooksList.swift in Sources */,
-				ED550FDD22A73B3300E98923 /* BookView.swift in Sources */,
-				EDB785F022A9AF1400464F9A /* BookRow.swift in Sources */,
-				ED2B09F922A9BAE900386396 /* TestsData.swift in Sources */,
+				ED1DDC3A22E50D0300152F56 /* BooksData.swift in Sources */,
+				ED1DDC3722E50CEF00152F56 /* Books.swift in Sources */,
+				ED1DDC2E22E50C9700152F56 /* AppDelegate.swift in Sources */,
+				ED1DDC2F22E50C9900152F56 /* SceneDelegate.swift in Sources */,
+				ED1DDC3022E50C9C00152F56 /* ProgressBar.swift in Sources */,
+				ED1DDC3122E50C9E00152F56 /* BooksList.swift in Sources */,
+				ED1DDC3522E50CE300152F56 /* BookFilterView.swift in Sources */,
+				ED1DDC3322E50CA500152F56 /* BookRow.swift in Sources */,
+				ED1DDC3622E50CEC00152F56 /* BookView.swift in Sources */,
+				ED1DDC3C22E50D6900152F56 /* TestsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED550FC422A7390000E98923 /* Library_GenesisTests.swift in Sources */,
+				ED550FC422A7390000E98923 /* QuickBookTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED550FCF22A7390000E98923 /* Library_GenesisUITests.swift in Sources */,
+				ED550FCF22A7390000E98923 /* QookuickUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,12 +420,12 @@
 /* Begin PBXTargetDependency section */
 		ED550FC122A7390000E98923 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED550FA822A738FE00E98923 /* Library Genesis */;
+			target = ED550FA822A738FE00E98923 /* QuickBook */;
 			targetProxy = ED550FC022A7390000E98923 /* PBXContainerItemProxy */;
 		};
 		ED550FCC22A7390000E98923 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED550FA822A738FE00E98923 /* Library Genesis */;
+			target = ED550FA822A738FE00E98923 /* QuickBook */;
 			targetProxy = ED550FCB22A7390000E98923 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -544,16 +560,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuickBook/QuickBook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Library Genesis\"/Preview\\ Content";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "QuickBook/Preview\\ Content/Resources/manyLibGens.json QuickBook/Preview\\ Content/Resources/libGensData.json QuickBook/Preview\\ Content";
 				DEVELOPMENT_TEAM = Z8Q82L44LS;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Library Genesis/Info.plist";
+				INFOPLIST_FILE = QuickBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-Genesis";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.QuickBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,16 +583,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = QuickBook/QuickBook.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Library Genesis\"/Preview\\ Content";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "QuickBook/Preview\\ Content/Resources/manyLibGens.json QuickBook/Preview\\ Content/Resources/libGensData.json QuickBook/Preview\\ Content";
 				DEVELOPMENT_TEAM = Z8Q82L44LS;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Library Genesis/Info.plist";
+				INFOPLIST_FILE = QuickBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.Library-Genesis";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "black.sombre-osmoze.QuickBook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -597,7 +619,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Library Genesis.app/Library Genesis";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBook.app/QuickBook";
 			};
 			name = Debug;
 		};
@@ -618,7 +640,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Library Genesis.app/Library Genesis";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBook.app/QuickBook";
 			};
 			name = Release;
 		};
@@ -665,7 +687,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED550FA422A738FE00E98923 /* Build configuration list for PBXProject "Library Genesis" */ = {
+		ED550FA422A738FE00E98923 /* Build configuration list for PBXProject "QuickBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED550FD122A7390000E98923 /* Debug */,
@@ -674,7 +696,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED550FD322A7390000E98923 /* Build configuration list for PBXNativeTarget "Library Genesis" */ = {
+		ED550FD322A7390000E98923 /* Build configuration list for PBXNativeTarget "QuickBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED550FD422A7390000E98923 /* Debug */,
@@ -683,7 +705,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED550FD622A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisTests" */ = {
+		ED550FD622A7390000E98923 /* Build configuration list for PBXNativeTarget "QuickBookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED550FD722A7390000E98923 /* Debug */,
@@ -692,7 +714,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED550FD922A7390000E98923 /* Build configuration list for PBXNativeTarget "Library GenesisUITests" */ = {
+		ED550FD922A7390000E98923 /* Build configuration list for PBXNativeTarget "QuickBookUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED550FDA22A7390000E98923 /* Debug */,

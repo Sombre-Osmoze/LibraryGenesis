@@ -1,6 +1,6 @@
 //
-//  Library_GenesisUITests.swift
-//  Library GenesisUITests
+//  QuickBookUITests.swift
+//  QuickBookUITests
 //
 //  Created by Marcus Florentin on 05/06/2019.
 //  Copyright © 2019 Marcus Florentin. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Library_GenesisUITests: XCTestCase {
+class QuickBookUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
